@@ -2,12 +2,12 @@
 
 def prime?(num)
     if num <= 1
-      return false
+      false
     else 
         if (2...num).any? { |x| num % x  == 0}
-            return false
+            false
         else
-            return true
+            true
         end 
     end
 end
